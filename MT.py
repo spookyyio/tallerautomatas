@@ -56,6 +56,7 @@ class MaquinaTuring:
         idx = self.alfabeto.index(char)
         return self.alfabeto[(idx - 1) % 26]
 
+    #Mostrorar las trancisones del
     def mostrar(self, paso):
         print("\n" + "-"*20)
         print(f"Paso: {paso}, Estado: {self.estado}")
@@ -66,7 +67,7 @@ class MaquinaTuring:
     def ejecutar(self, mostrar_pasos=False):
         pasos = 0
         
-        #ejecuta hasta llegar al estado de parada q3
+        #ejecuta hasta llegar al estado de final q3
         while self.estado != 'q3' and pasos < 10000:
             if mostrar_pasos:
                 self.mostrar(pasos)
