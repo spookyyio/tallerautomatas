@@ -56,7 +56,7 @@ class MaquinaTuring:
         idx = self.alfabeto.index(char)
         return self.alfabeto[(idx - 1) % 26]
 
-    #Mostrorar las trancisones del MT
+    #Mostrar las trancisones del MT
     def mostrar(self, paso):
         print("\n" + "-"*20)
         print(f"Paso: {paso}, Estado: {self.estado}")
