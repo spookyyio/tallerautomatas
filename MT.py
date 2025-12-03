@@ -197,4 +197,7 @@ def main():
             print("Opcion invalida.")
 
 if __name__ == "__main__":
+
     main()
+
+# Integrantes del taller: Matias Barrientos, Esteban Urrutia, Vicente Navarro y Felipe Sanchez
